@@ -3,7 +3,7 @@ import FetchData from "./FetchData";
 const CardDetails = () => {
   const { id } = useParams();
   const { data, isLoading, error } = FetchData(
-    "http://localhost:8000/productList/" + id
+    "http://localhost:4000/productList/" + id
   );
   const monthNames = [
     "January",

@@ -2,7 +2,7 @@ import FetchData from "./FetchData";
 import ListCards from "./ListCard";
 
 const Home = () => {
-  const { data, isLoading, error } = FetchData("http://localhost:8000/productList");
+  const { data, isLoading, error } = FetchData("http://localhost:4000/productList");
 
   return (
     <div>
